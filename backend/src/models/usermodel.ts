@@ -13,4 +13,4 @@ export const UserModel = {
     );
     return result.insertId;
   }
-};
+}
