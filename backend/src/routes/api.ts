@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { register, login } from '../controllers/authController';
 import { getTodos, createTodo } from '../controllers/todoController'
 import { validateRegister, validateLogin, validateTodo } from '../middlewares/validator';
-import { verifyToken } from '../middlewares/authmiddleware'; 
+import { verifyToken } from '../middlewares/authMiddleware'; 
 
 const router = Router();
 
